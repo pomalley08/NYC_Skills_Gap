@@ -17,6 +17,8 @@ library(stringr)
 # Text visualization package
 install.packages("wordcloud")
 library(wordcloud)
+# Visualize correlations
+library(corrplot)
 
 # Bring the data generated in mySQL into R ------------------------------------
 jobs         <- read.csv("jobs.csv", na.strings = "\\N")
