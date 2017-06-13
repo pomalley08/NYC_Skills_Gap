@@ -19,6 +19,9 @@ install.packages("wordcloud")
 library(wordcloud)
 # Visualize correlations
 library(corrplot)
+# machine learning package
+install.packages("caret")
+library(caret)
 
 # Bring the data generated in mySQL into R ------------------------------------
 jobs         <- read.csv("jobs.csv", na.strings = "\\N")
